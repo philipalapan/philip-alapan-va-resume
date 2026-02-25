@@ -36,3 +36,9 @@
   object-fit: cover;  /* siguradong bilog kahit rectangular ang original */
   margin-bottom: 10px;
 }
+
+.profile-pic {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
