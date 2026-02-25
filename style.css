@@ -1,0 +1,38 @@
+    /* ===== Base Styles ===== */
+    * { box-sizing: border-box; margin:0; padding:0; font-family:'Inter',sans-serif; }
+    body { background:#f5f3ff; color:#1f2937; line-height:1.6; }
+    .container { display:flex; max-width:1000px; margin:30px auto; gap:20px; }
+    .sidebar { width:250px; background:#ede9fe; padding:20px; border-radius:12px; }
+    .sidebar h2 { color:#4c1d95; margin-bottom:10px; }
+    .sidebar p { margin-bottom:10px; }
+    .section { margin-top:20px; }
+    .skill { background:#d8b4fe; padding:6px 10px; border-radius:8px; margin:4px 0; font-weight:600; }
+    .main { flex:1; background:#fff; padding:20px; border-radius:12px; box-shadow:0 10px 25px rgba(0,0,0,0.1); }
+    .main h1 { color:#6d28d9; margin-bottom:20px; }
+    .section h3 { color:#4c1d95; margin-bottom:10px; }
+    .section p { margin-bottom:10px; }
+    .btn { display:inline-block; padding:8px 16px; background:#6d28d9; color:#fff; border-radius:8px; text-decoration:none; font-weight:600; font-size:0.9rem; transition:0.3s; margin-top:5px; }
+    .btn:hover { background:#5b21b6; }
+    a { color:#6d28d9; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+
+    /* ===== Certificates Grid ===== */
+    .cert-grid {
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top:10px;
+    }
+    .cert-grid img {
+      width:180px;
+      border-radius:8px;
+      box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    }
+    
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;  /* siguradong bilog kahit rectangular ang original */
+  margin-bottom: 10px;
+}
