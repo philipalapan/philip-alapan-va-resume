@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Philip Alapan | Virtual Assistant</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Virtual Assistant Portfolio of Philip Alapan - Data Entry, Admin Support, Web Support">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+font-family:'Inter',sans-serif;
+}
+
+body{
+
+background:#f5f3ff;
+color:#1f2937;
+
+}
+
+.container{
+
+display:flex;
+max-width:1000px;
+margin:30px auto;
+gap:20px;
+flex-wrap:wrap;
+
+}
+
+.sidebar{
+
+width:260px;
+background:#ede9fe;
+padding:20px;
+border-radius:12px;
+
+}
+
+.profile-pic{
+
+width:120px;
+border-radius:50%;
+margin-bottom:10px;
+
+}
+
+.sidebar h2{
+
+color:#4c1d95;
+margin-bottom:5px;
+
+}
+
+.sidebar p{
+
+margin-bottom:8px;
+font-size:14px;
+
+}
+
+.section{
+
+margin-top:20px;
+
+}
+
+.skill{
+
+background:#d8b4fe;
+padding:6px 10px;
+border-radius:8px;
+margin:4px 0;
+font-weight:600;
+display:inline-block;
+font-size:13px;
+
+}
+
+.main{
+
+flex:1;
+background:#fff;
+padding:25px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+
+}
+
+.main h1{
+
+color:#6d28d9;
+margin-bottom:5px;
+
+}
+
+.subtitle{
+
+color:#6d28d9;
+font-weight:600;
+margin-bottom:20px;
+
+}
+
+.section h3{
+
+color:#4c1d95;
+margin-bottom:10px;
+
+}
+
+.section p{
+
+margin-bottom:10px;
+font-size:15px;
+
+}
+
+.btn{
+
+display:inline-block;
+padding:8px 16px;
+background:#6d28d9;
+color:#fff;
+border-radius:8px;
+text-decoration:none;
+font-weight:600;
+margin-top:5px;
+margin-bottom:10px;
+
+}
+
+.btn:hover{
+
+background:#5b21b6;
+
+}
+
+.cert-grid{
+
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+
+}
+
+.cert-grid img{
+
+width:180px;
+border-radius:8px;
+
+}
+
+@media(max-width:768px){
+
+.container{
+
+flex-direction:column;
+
+}
+
+.sidebar,.main{
+
+width:100%;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<div class="container">
+
+
+<!-- SIDEBAR -->
+
+<div class="sidebar">
+
+ <h2>Philip Alapan</h2>
+
+<p>Bucay, Abra</p>
+
+<p>📧 Philipalapan89@gmail.com</p>
+
+<p>📱 09511296252</p>
+
+
+<div class="section">
+
+<h3>VA Skills</h3>
+
+<div class="skill">Data Entry</div>
+
+<div class="skill">Internet Research</div>
+
+<div class="skill">Email Management</div>
+
+<div class="skill">Calendar Management</div>
+
+<div class="skill">File Management</div>
+
+<div class="skill">Microsoft Office</div>
+
+<div class="skill">Google Workspace</div>
+
+<div class="skill">Communication</div>
+
+<div class="skill">Task Management</div>
+
+</div>
+
+
+<div class="section">
+
+<h3>Technical Skills</h3>
+
+<div class="skill">HTML</div>
+
+<div class="skill">CSS</div>
+
+<div class="skill">JavaScript</div>
+
+<div class="skill">Vue.js</div>
+
+<div class="skill">GitHub</div>
+
+<div class="skill">Vercel</div>
+
+</div>
+
+
+<div class="section">
+
+<h3>Strengths</h3>
+
+<p>✔ Fast Learner</p>
+
+<p>✔ Attention to Detail</p>
+
+<p>✔ Organized</p>
+
+<p>✔ Reliable</p>
+
+<p>✔ Self-Motivated</p>
+
+</div>
+
+
+</div>
+
+
+<!-- MAIN -->
+
+
+<div class="main">
+
+
+<h1>Virtual Assistant</h1>
+
+<p class="subtitle">
+
+Administrative Support | Data Entry | Web Support
+
+</p>
+
+
+<div class="section">
+
+<h3>Profile</h3>
+
+<p>
+
+Detail-oriented Virtual Assistant with strong skills in data entry, internet research, email management, and administrative support. Proficient in Microsoft Office and Google Workspace. Tech-savvy with basic web development knowledge and committed to helping businesses stay organized and efficient.
+
+</p>
+
+</div>
+
+
+
+<div class="section">
+
+<h3>Technical Projects (Optional)</h3>
+
+
+<p><b>Portfolio Website</b></p>
+
+<p>
+
+Built responsive personal portfolio website showcasing skills and projects.
+
+</p>
+
+<a href="https://philip-alapan-portfolio.vercel.app" target="_blank" class="btn">
+
+View Project
+
+</a>
+
+
+
+<p><b>Job Application Tracker</b></p>
+
+<p>
+
+Web application for tracking and managing job applications efficiently.
+
+</p>
+
+<a href="https://job-application-tracker-woad-omega.vercel.app" target="_blank" class="btn">
+
+View Project
+
+</a>
+
+
+
+<p><b>Perfume Shop Website</b></p>
+
+<p>
+
+Sample e-commerce website with product listings and cart system.
+
+</p>
+
+<a href="https://paus-perfume-shop.vercel.app" target="_blank" class="btn">
+
+View Project
+
+</a>
+
+
+</div>
+
+
+
+
+
+</div>
+
+<h3>Education</h3>
+
+<p>
+
+Bachelor of Science in Information Technology
+
+<br>
+
+2017 – 2021
+
+</p>
+
+</div>
+
+
+
+<div class="section">
+
+<h3>Resume</h3>
+
+<a href="Philip_Alapan_VA_Resume.pdf" download class="btn">
+
+Download Resume
+
+</a>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</body>
+
+</html>
